@@ -24,6 +24,12 @@ bool InputState::IsTriggered(InputType type)const
 		return !lastKeyState[KEY_INPUT_SPACE] &&
 			keyState[KEY_INPUT_SPACE];
 	}
+	else if (type == InputType::pause)
+	{
+		return !lastKeyState[KEY_INPUT_P] &&
+			keyState[KEY_INPUT_P];
+	}
+	return false;
 }
 
 bool InputState::IsPressed(InputType type)const

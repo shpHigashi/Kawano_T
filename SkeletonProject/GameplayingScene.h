@@ -7,6 +7,9 @@
 class GameplayingScene : public Scene
 {
 private:
+	float px = 0, py = 0;
+	float vx = 0, vy = 0;
+	
 	int playingH_ = -1; // ƒ^ƒCƒgƒ‹‰æ‘œ
 
 	static constexpr int fade_interval = 60;

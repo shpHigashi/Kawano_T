@@ -46,7 +46,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		sceneManager.Update(input);
 		sceneManager.Draw();
 
-		Function(count++, value);
+		//Function(count++, value);
 		ScreenFlip();
 	}
 

@@ -147,16 +147,19 @@
     <ClCompile Include="InputState.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OptionScene.cpp" />
+    <ClCompile Include="PauseScene.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="common.h" />
     <ClInclude Include="DrawFunctions.h" />
     <ClInclude Include="GameoverScene.h" />
     <ClInclude Include="GameplayingScene.h" />
     <ClInclude Include="InputState.h" />
     <ClInclude Include="OptionScene.h" />
+    <ClInclude Include="PauseScene.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="TitleScene.h" />

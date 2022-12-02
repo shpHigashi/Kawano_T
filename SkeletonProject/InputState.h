@@ -3,7 +3,8 @@
 enum class InputType
 {
 	next, // 次へ行くボタン
-	prev // 前に戻るボタン
+	prev, // 前に戻るボタン
+	pause // ポーズボタン
 };
 
 class InputState

@@ -59,7 +59,10 @@ void TitleScene::Draw()
 {
 	DrawRotaGraph(240, 240, 1.0f, 0.0f, titleH_, true);
 	
+	// 今から書く画像と、すでに描画されているスクリーンとの
+	// ブレンドの仕方を指定している。
 	SetDrawBlendMode(DX_BLENDMODE_ALPHA, fadeValue_);
+	// 画面全体を真っ黒に塗りつぶす
 	DrawBox(0, 0, 640, 480, 0x000000, true);
 	SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
 }
