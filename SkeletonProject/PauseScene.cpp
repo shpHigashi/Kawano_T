@@ -1,6 +1,7 @@
 #include "PauseScene.h"
 #include "InputState.h"
 #include "SceneManager.h"
+#include "KeyConfigScene.h"
 #include "Dxlib.h"
 
 PauseScene::PauseScene(SceneManager& manager) : Scene(manager)
@@ -17,6 +18,10 @@ void PauseScene::Update(const InputState& input)
 	{
 		manager_.PopScene();
 		return;
+	}
+	if (input.IsTriggered(InputType::keyconfig))
+	{
+		manager_.PushScene(new KeyConfigScene(manager_));
 	}
 }
 

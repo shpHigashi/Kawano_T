@@ -145,6 +145,7 @@
     <ClCompile Include="GameoverScene.cpp" />
     <ClCompile Include="GameplayingScene.cpp" />
     <ClCompile Include="InputState.cpp" />
+    <ClCompile Include="KeyConfigScene.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OptionScene.cpp" />
     <ClCompile Include="PauseScene.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="GameoverScene.h" />
     <ClInclude Include="GameplayingScene.h" />
     <ClInclude Include="InputState.h" />
+    <ClInclude Include="KeyConfigScene.h" />
     <ClInclude Include="OptionScene.h" />
     <ClInclude Include="PauseScene.h" />
     <ClInclude Include="Scene.h" />
