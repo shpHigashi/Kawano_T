@@ -44,6 +44,11 @@ void InputState::Update()
 			{
 				currentInput_[static_cast<int>(keymap.first)] = mouseState & input.id;
 			}
+			
+			if (currentInput_[static_cast<int>(keymap.first)])
+			{
+				break;
+			}
 		}
 	}
 }
